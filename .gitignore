@@ -1,0 +1,22 @@
+# Java
+/target
+*.class
+*.jar
+
+# React / Node
+node_modules/
+build/
+
+# Logs
+*.log
+
+# IDEs
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+
+# Env/config
+.env
+
