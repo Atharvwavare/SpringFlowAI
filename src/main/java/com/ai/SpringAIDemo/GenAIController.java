@@ -15,7 +15,6 @@ import java.util.stream.Collectors;
 public class GenAIController {
 
 
-
     private final ChatService chatService;
     private final ImageService imageService;
     private final RecipeService recipeService;
