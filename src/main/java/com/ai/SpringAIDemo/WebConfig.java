@@ -14,8 +14,7 @@ public class WebConfig implements WebMvcConfigurer {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://ai-spring-application.onrender.com/",
-                                "http://localhost:3000")
+                        .allowedOrigins("http://localhost:3000","http://192.168.149.196:3000")
                         .allowedMethods("GET","POST","PUT","DELETE","OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
